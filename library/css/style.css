@@ -1916,6 +1916,11 @@ COMMENT STYLES
 /******************************************************************
 COMMENT FORM STYLES
 ******************************************************************/
+textarea#comment {
+  padding: 6px 10px;
+  width: 100%;
+}
+
 .comment-respond {
   padding: 1.5em;
   border-top: 1px solid #f8f9fa;
@@ -1936,6 +1941,10 @@ COMMENT FORM STYLES
 
 .comment-form-comment {
   margin: 1.5em 0 0.75em;
+}
+.comment-form-comment label {
+  display: block;
+  margin-bottom: 6px;
 }
 
 .form-allowed-tags {

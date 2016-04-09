@@ -796,6 +796,11 @@ COMMENT STYLES
 COMMENT FORM STYLES
 ******************************************************************/
 
+textarea#comment {
+  padding: $y-xs $x-sm;
+  width: 100%;
+}
+
 .comment-respond {
 	@extend .cf;
 	padding: 1.5em;
@@ -818,6 +823,11 @@ COMMENT FORM STYLES
 
 	.comment-form-comment {
 		margin: 1.5em 0 0.75em;
+
+    label {
+      display: block;
+      margin-bottom: $y-xs;
+    }
 	}
 
 	.form-allowed-tags {
