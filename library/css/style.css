@@ -1477,6 +1477,7 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: 1.125em;
+  font-weight: 700;
 }
 
 h4, .h4 {
@@ -1717,6 +1718,11 @@ POSTS & CONTENT STYLES
   margin: 0 0 1.5em;
   border-radius: 3px;
   word-wrap: break-word;
+}
+
+.entry-content ul li {
+  list-style-type: disc;
+  margin-left: 22px;
 }
 
 /* end .entry-content */
