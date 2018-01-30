@@ -180,11 +180,12 @@ body#tinymce.wp-editor {
 		}
 
 		pre {
-			background: $black;
+			background: $black !important;
 			color: $light-gray;
 			font-size: 0.9em;
 			padding: 1.5em;
 			margin: 0 0 1.5em;
+      border: none !important;
 			border-radius: 3px;
 		}
 

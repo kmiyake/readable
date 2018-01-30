@@ -732,11 +732,12 @@ body#tinymce.wp-editor .size-thumbnail {
   height: auto;
 }
 body#tinymce.wp-editor pre {
-  background: #323944;
+  background: #323944 !important;
   color: #f8f9fa;
   font-size: 0.9em;
   padding: 1.5em;
   margin: 0 0 1.5em;
+  border: none !important;
   border-radius: 3px;
 }
 @media only screen and (min-width: 481px) {
