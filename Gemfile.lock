@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     childprocess (0.5.9)
       ffi (~> 1.0, >= 1.0.11)
@@ -41,4 +41,4 @@ DEPENDENCIES
   rack-legacy
 
 BUNDLED WITH
-   1.11.2
+   1.16.1
