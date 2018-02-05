@@ -358,23 +358,30 @@ POSTS & CONTENT STYLES
 
 			ul, ol, table, dl {}
 
-			ul, ol {
+      ul, ol {
+        padding-left: 1.3rem;
+        margin-bottom: 1.5rem;
 
-				li {}
+        li {
+          margin-bottom: 1rem;
+        }
 
-			}
+      }
 
-			ul {
+      ul {
+        list-style-type: disc !important;
 
-				li {}
+        li {
+        }
 
-			}
+      }
 
-			ol {
+      ol {
+        list-style-type: decimal !important;
 
-				li {}
+        li {}
 
-			}
+      }
 
 			table {
 				width: 100%;
