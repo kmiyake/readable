@@ -1645,6 +1645,7 @@ POSTS & CONTENT STYLES
 }
 .entry-content h2, .entry-content h3, .entry-content h4 {
   font-size: 1.25em;
+  font-weight: bold;
   margin-bottom: .75em;
 }
 .entry-content p {
@@ -1756,6 +1757,10 @@ POSTS & CONTENT STYLES
 /* gallery caption styles */
 .tags {
   margin: 0;
+}
+
+.eyecatch {
+  box-shadow: 0 2px 3px #efefef;
 }
 
 /******************************************************************

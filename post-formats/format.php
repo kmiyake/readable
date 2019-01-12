@@ -24,6 +24,13 @@
 
                 </header> <?php // end article header ?>
 
+                <?php if (has_post_thumbnail()) : ?>
+                  <div class="eyecatch">
+                    <?php the_post_thumbnail('large'); ?>
+                  </div>
+                <?php endif ; ?>
+
+
                 <section class="entry-content cf" itemprop="articleBody">
                   <?php
                     // the content (pretty self explanatory huh)

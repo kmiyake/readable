@@ -348,6 +348,7 @@ POSTS & CONTENT STYLES
 
       h2, h3, h4 {
         font-size: 1.25em;
+        font-weight: bold;
         margin-bottom: .75em;
       }
 
@@ -532,6 +533,10 @@ POSTS & CONTENT STYLES
 	.tags {
 		margin: 0;
 	}
+
+  .eyecatch {
+    box-shadow: 0 2px 3px #efefef;
+  }
 
 /******************************************************************
 PAGE NAVI STYLES
