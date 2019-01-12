@@ -740,6 +740,16 @@ body#tinymce.wp-editor pre {
   border: none !important;
   border-radius: 3px;
 }
+body#tinymce.wp-editor ul {
+  list-style-type: disc !important;
+  padding-left: 1.3rem;
+  margin-bottom: 1.5rem;
+}
+body#tinymce.wp-editor ol {
+  list-style-type: decimal !important;
+  padding-left: 1.3rem;
+  margin-bottom: 1.5rem;
+}
 @media only screen and (min-width: 481px) {
   body#tinymce.wp-editor {
     /* at this larger size, we can start to align images */

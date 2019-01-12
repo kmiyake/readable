@@ -189,6 +189,18 @@ body#tinymce.wp-editor {
 			border-radius: 3px;
 		}
 
+  ul {
+    list-style-type: disc !important;
+    padding-left: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  ol {
+    list-style-type: decimal !important;
+    padding-left: 1.3rem;
+    margin-bottom: 1.5rem;
+  }
+
 		/*********************
 		LARGER MOBILE DEVICES
 		This is for devices like the Galaxy Note or something that's
