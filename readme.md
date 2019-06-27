@@ -1,3 +1,12 @@
+# Readable
+
+## How to build scss
+
+```
+$ npm install -g sass
+$ sass --watch library/scss/:library/css
+```
+
 # Bones
 A Lightweight Wordpress Development Theme
 
