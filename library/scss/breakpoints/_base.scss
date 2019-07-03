@@ -369,7 +369,7 @@ POSTS & CONTENT STYLES
         margin-bottom: 1.5rem;
 
         li {
-          margin-bottom: 1rem;
+          margin-bottom: 0.5rem;
         }
 
       }
@@ -486,6 +486,13 @@ POSTS & CONTENT STYLES
 				border-radius: 3px;
         word-wrap: break-word;
 			}
+
+      code {
+        background-color: #234;
+        border-radius: 2px;
+        color: #fff;
+        padding: 2px 4px;
+      }
 
 		} /* end .entry-content */
 
